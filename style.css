@@ -1,0 +1,24 @@
+  body {
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .popup-container {
+    margin: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #speedSlider {
+    width: 80%;
+  }
+  
+  #speedValue {
+    display: block;
+    margin-top: 5px;
+  }
+  

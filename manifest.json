@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Vizzard",
+  "version": "1.0.0",
+  "description": "A basic example extension with only required keys",
+  "icons": {
+    "128": "vizzard-logos_white.png"
+  },
+  "action": {
+    "default_popup": "pop.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ]
+}
